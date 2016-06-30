@@ -6,6 +6,7 @@ The goal of this repo is to eventually contain all the sketches, schematics, CAD
 
 ## Parts list
 Electronics
+
 1. Arduino Uno
 2. Adafruit Motor shield V2
 3. 2x Stepper motors (200 steps /rev by default)
@@ -14,6 +15,7 @@ Electronics
 6. Battery for steppers (+battery for Arduino, if different enough)
 
 Mechanical
+
 1. Telescope
 2. 2x Worm gear, 150:1 (see CAD files, coming...)
 3. Stepper motor mounting hardware
