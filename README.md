@@ -7,12 +7,12 @@ The goal of this repo is to eventually contain all the sketches, schematics, CAD
 ## Parts list
 Electronics
 
-1. Arduino Uno
-2. Adafruit Motor shield V2
-3. 2x Stepper motors (200 steps /rev by default)
-4. 12 key Keypad
-5. 16x2 LCD display
-6. Battery for steppers (+battery for Arduino, if different enough)
+  1. Arduino Uno
+  2. Adafruit Motor shield V2
+  3. 2x Stepper motors (200 steps /rev by default)
+  4. 12 key Keypad
+  5. 16x2 LCD display
+  6. Battery for steppers (+battery for Arduino, if different enough)
 
 Mechanical
 
