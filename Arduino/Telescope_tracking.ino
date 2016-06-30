@@ -135,7 +135,7 @@ void loop() {
   
   if (abs(errorAlt) > threshold) 
   {
-    int i; String dir;
+    int i;
     if (errorAlt > 0) { 
       altMotor->onestep(FORWARD,SINGLE); 
       errorAlt -= threshold;
@@ -152,7 +152,7 @@ void loop() {
   
   if (abs(errorAz) > threshold) 
   {
-    int i; String dir;
+    int i;
     if (errorAz > 0) { 
       azMotor->onestep(FORWARD,SINGLE); 
       errorAz -= threshold; 
