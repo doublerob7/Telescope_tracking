@@ -19,7 +19,6 @@ nessessary, and no GO-TO functionality implemented.
 //Declaring globals
 float latitude, declination, altitude, azimuth;
 float threshold = (1.8 * 3600);
-int omegaEarth = 15;
 char setKey, Key;
 int STATUS;
 int lastTime;
@@ -222,6 +221,7 @@ float calculateError(int orient){
   //calculate error in positioning
   
   float deltaAlt, deltaAz, deltah, deltaTime, dec;
+  int omegaEarth = 15;
   
   latitude /= 3600;
   altitude /= 3600;
