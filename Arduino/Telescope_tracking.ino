@@ -10,11 +10,10 @@ nessessary, and no GO-TO functionality implemented.
 
 
 //Included Libraries
-#include <LiquidCrystal.h>
 #include <Adafruit_MotorShield.h>
-#include "utility/Adafruit_PWMServoDriver.h"
+#include <LiquidCrystal.h>
 #include <Wire.h>
-#include "Keypad.h"
+#include <Keypad.h>
 #include "Arduino.h"
 
 //Declaring globals
